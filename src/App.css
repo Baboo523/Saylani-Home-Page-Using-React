@@ -2,7 +2,41 @@
 {
   background-color: brown;
 }
-/* .footer 
+*
 {
-  background-color: brown;
-} */
+  font-family: 'Open Sans', sans-serif; 
+}
+.center
+{
+  margin-left:150px;
+  margin-right:150px;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  /* background-color: aqua; */
+  font-size: 12.5px;
+  font-weight: bold;
+}
+.Image
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+.setting
+{
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+.float
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+  font-weight: bold;
+}
+.main
+{
+  background-color: rgb(37, 150, 190);
+  color:white;
+}
