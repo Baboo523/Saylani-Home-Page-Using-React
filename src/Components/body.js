@@ -13,10 +13,12 @@ import cap from '../images/Capture.PNG';
 import '../App.css';
 
 
-// import icon1 from '../images/1.png';
-// import icon2 from '../images/2.png';
-// import icon3 from '../images/3.png';
-// import icon4 from '../images/4.png';
+import Snip1 from '../images/snip1.PNG';
+import Snip2 from '../images/snip2.PNG';
+import Snip3 from '../images/snip3.PNG';
+import Snip4 from '../images/snip4.PNG';
+import Snip5 from '../images/snip5.PNG';
+import Snip6 from '../images/snip6.PNG';
 
 
 
@@ -100,6 +102,42 @@ class Body extends React.Component {
                     <h1 style={{ textAlign: 'center' }} >WHAT WE ARE DOING</h1>
                     <img src={img} alt="cur" className='Image' />
                     <br /> <br />
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img src={Snip1} className="card-img-top" alt="..." width="5px" height="50px" />
+                        <div className="card-body">
+                            <center><h5 className="card-title">ONLINE SADQAH</h5></center>
+                        </div>
+                    </div>
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img src={Snip2} className="card-img-top" alt="..." width="5px" height="50px" />
+                        <div className="card-body">
+                            <center><h5 className="card-title">WELFARE</h5></center>
+                        </div>
+                    </div>
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img src={Snip3} className="card-img-top" alt="..."  width="5px" height="50px" />
+                        <div className="card-body">
+                            <center><h5 className="card-title">MEDICAL</h5></center>
+                        </div>
+                    </div>
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img src={Snip4} className="card-img-top" alt="..." width="5px" height="50px" />
+                        <div className="card-body">
+                        <center><h5 className="card-title">DASTRAKHAN</h5></center>
+                        </div>
+                    </div>
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img src={Snip5} className="card-img-top" alt="..." width="5px" height="50px" />
+                        <div className="card-body">
+                        <center><h5 className="card-title">RO PLANT</h5></center>
+                        </div>
+                    </div>
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img src={Snip6} className="card-img-top" alt="..." width="5px" height="50px" />
+                        <div className="card-body">
+                            <center><h5 className="card-title">EDUCATION</h5></center>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
